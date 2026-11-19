@@ -1,0 +1,15 @@
+CASA POKE - COMO EXECUTAR
+
+1. Instale o Node.js.
+2. Abra a pasta Casa_Poke no VS Code.
+3. Abra o terminal dentro da pasta.
+4. Execute: npm install
+5. Execute: npm start
+6. Abra no navegador: http://localhost:3000
+
+LOGIN ADMINISTRADOR DE TESTE
+Email: adminpoke@poke.com
+Senha: 1234
+
+Os arquivos HTML, CSS, JavaScript e a imagem estão dentro da pasta public.
+Os dados de cadastro ficam no db.json.

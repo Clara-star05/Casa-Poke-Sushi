@@ -1,0 +1,13 @@
+{
+  "name": "casa-poke",
+  "version": "1.0.0",
+  "description": "Projeto Casa Poke - cadastro, login, catálogo e administração",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "json-server": "^0.17.4"
+  }
+}

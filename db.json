@@ -1,0 +1,18 @@
+{
+    "pessoas": [
+        {
+            "id": 1,
+            "nome": "Administrador",
+            "sobrenome": "Casa Poke",
+            "cpf": "000.000.000-00",
+            "telefone": "",
+            "email": "adminpoke@poke.com",
+            "senha": "1234",
+            "rua": "",
+            "cep": "",
+            "cidade": "",
+            "estado": "",
+            "admin": true
+        }
+    ]
+}

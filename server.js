@@ -1,0 +1,20 @@
+const jsonServer = require('json-server');
+const path = require('path');
+
+const server = jsonServer.create();
+
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
+
+const middlewares = jsonServer.defaults({
+    static: path.join(__dirname, 'public')
+});
+
+const PORT = process.env.PORT || 3000;
+
+server.use(middlewares);
+
+server.use(router);
+
+server.listen(PORT, () => {
+    console.log(`Servidor Casa Poke rodando na porta /pessoas${PORT}`);
+});
